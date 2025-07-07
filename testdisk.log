@@ -1,0 +1,58 @@
+
+
+Mon Jul  7 20:31:40 2025
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 6.11.0-29-generic (#29~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Jun 26 14:16:59 UTC 2) x86_64
+Compiler: GCC 13.2
+ext2fs lib: 1.47.0, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.4
+/dev/sda: LBA, HPA, LBA48, DCO support
+/dev/sda: size       976773168 sectors
+/dev/sda: user_max   976773168 sectors
+/dev/sda: native_max 976773168 sectors
+/dev/sda: dco        976773168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop20 - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 500 GB / 465 GiB - CHS 60801 255 63, sector size=512 - TOSHIBA MQ01ABF050, S/N:2514CUJ1T, FW:AM0Q5E
+Disk /dev/loop0 - 476 MB / 454 MiB - 930776 sectors (RO), sector size=512
+Disk /dev/loop1 - 589 KB / 576 KiB - 1152 sectors (RO), sector size=512
+Disk /dev/loop10 - 581 KB / 568 KiB - 1136 sectors (RO), sector size=512
+Disk /dev/loop11 - 4096 B - 8 sectors (RO), sector size=512
+Disk /dev/loop12 - 96 MB / 91 MiB - 187776 sectors (RO), sector size=512
+Disk /dev/loop13 - 77 MB / 73 MiB - 151328 sectors (RO), sector size=512
+Disk /dev/loop14 - 11 MB / 10 MiB - 22056 sectors (RO), sector size=512
+Disk /dev/loop15 - 541 MB / 516 MiB - 1056784 sectors (RO), sector size=512
+Disk /dev/loop16 - 270 MB / 258 MiB - 528456 sectors (RO), sector size=512
+Disk /dev/loop17 - 11 MB / 11 MiB - 22800 sectors (RO), sector size=512
+Disk /dev/loop18 - 476 MB / 454 MiB - 930768 sectors (RO), sector size=512
+Disk /dev/loop19 - 220 MB / 210 MiB - 430832 sectors (RO), sector size=512
+Disk /dev/loop2 - 11 MB / 10 MiB - 22176 sectors (RO), sector size=512
+Disk /dev/loop3 - 70 MB / 66 MiB - 136736 sectors (RO), sector size=512
+Disk /dev/loop4 - 53 MB / 50 MiB - 104240 sectors (RO), sector size=512
+Disk /dev/loop5 - 77 MB / 73 MiB - 151352 sectors (RO), sector size=512
+Disk /dev/loop6 - 338 MB / 322 MiB - 661176 sectors (RO), sector size=512
+Disk /dev/loop7 - 66 MB / 63 MiB - 130592 sectors (RO), sector size=512
+Disk /dev/loop8 - 220 MB / 210 MiB - 430920 sectors (RO), sector size=512
+Disk /dev/loop9 - 46 MB / 44 MiB - 91008 sectors (RO), sector size=512
+
+Partition table type (auto): EFI GPT
+Disk /dev/sda - 500 GB / 465 GiB - TOSHIBA MQ01ABF050
+Partition table type: EFI GPT
+
+Interface Advanced
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=976773167 (expected 976773167)
+hdr_lba_start=2048
+hdr_lba_end=976773134
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+ 1 P EFI System                  2048    2203647    2201600
+ 2 P Linux filesys. data      2203648  976771071  974567424
+
+TestDisk exited normally.
